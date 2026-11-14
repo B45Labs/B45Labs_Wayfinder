@@ -1,0 +1,21 @@
+# Public releases-and-docs repo: no source code lives here.
+# Installers are attached to GitHub Releases, never committed.
+*.exe
+*.msi
+*.zip
+*.pdb
+*.dll
+
+# Secrets and local environment
+.env*
+secrets.json
+*.secrets.props
+
+# OS and editor files
+Thumbs.db
+.DS_Store
+.vs/
+.vscode/
+
+# Internal release tooling output
+releases.json
