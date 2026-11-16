@@ -1,7 +1,7 @@
 # B45 Labs – Proprietary License Notice
 
 **Last updated:** 2026-11-14
-**Applies to:** B45 Labs | Wayfinder v0.0.1 (Autodesk Navisworks Manage 2026) and all accompanying documentation.
+**Applies to:** B45 Labs | Wayfinder v0.0.1 (Autodesk Navisworks Manage 2025, 2026 and 2027) and all accompanying documentation.
 
 Copyright (c) 2026 B45 Labs. All rights reserved.
 

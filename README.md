@@ -6,7 +6,7 @@
 ![Version](https://img.shields.io/badge/Version-0.0.1-EE6C1E?style=flat-square)
 ![.NET](https://img.shields.io/badge/.NET-net48-512BD4?style=flat-square)
 
-> B45 Labs | Wayfinder is the B45 Labs add-in for Autodesk Navisworks Manage 2026: fly through the model in first person, group clashes with a preview before anything changes, and put a section box around a clash, together with the B45 Labs tools you already know from Revit.
+> B45 Labs | Wayfinder is the B45 Labs add-in for Autodesk Navisworks Manage 2025, 2026 and 2027: fly through the model in first person, group clashes with a preview before anything changes, and put a section box around a clash, together with the B45 Labs tools you already know from Revit.
 
 > **Part of the B45 Labs suite.** Wayfinder is the Navisworks product of the suite, next to **Coordination**, **Library** and **Connect** for Revit. It installs and updates **independently** and adds its own **B45 Labs | Wayfinder** tab to the Navisworks ribbon, with Main, Navigation, Models, Clash, Settings and Help panels.
 
@@ -37,12 +37,12 @@ See [CHANGELOG.md](CHANGELOG.md) for the full list and the known limits of this 
 
 | Requirement | Details |
 |---|---|
-| Autodesk Navisworks | Manage 2026 (built and tested on this version only) |
+| Autodesk Navisworks | Manage 2025, 2026 and 2027 (one build per year) |
 | Operating System | Windows 10 / Windows 11 |
 | .NET | net48 |
 | Installation | Per-user, no administrator rights required |
 
-A Navisworks 2025 build is prepared but has not been tested yet, and no other Navisworks version is supported.
+No other Navisworks version is supported.
 
 ---
 

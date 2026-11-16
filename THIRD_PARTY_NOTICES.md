@@ -1,7 +1,7 @@
 # B45 Labs | Wayfinder – Third-Party Notices
 
 **Last updated:** 2026-11-14
-**Applies to:** B45 Labs | Wayfinder v0.0.1 (Autodesk Navisworks Manage 2026 build)
+**Applies to:** B45 Labs | Wayfinder v0.0.1 (Autodesk Navisworks Manage 2025, 2026 and 2027 builds)
 
 This document lists the third-party components redistributed with the
 B45 Labs | Wayfinder installer and their applicable licenses.

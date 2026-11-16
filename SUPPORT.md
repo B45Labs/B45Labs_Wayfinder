@@ -1,7 +1,7 @@
 # B45 Labs – Support
 
 **Last updated:** 2026-11-14
-**Applies to:** B45 Labs | Wayfinder v0.0.1 (Autodesk Navisworks Manage 2026)
+**Applies to:** B45 Labs | Wayfinder v0.0.1 (Autodesk Navisworks Manage 2025, 2026 and 2027)
 
 ## 1. Support channels
 - Email: **support@B45Labs.com**
@@ -9,7 +9,7 @@
 ## 2. What to include in a support request
 To help us reproduce and fix issues quickly, include:
 - B45 Labs | Wayfinder version (e.g., 0.0.1)
-- Navisworks version (Manage 2026) + build number if available
+- Navisworks version (Manage 2025, 2026 or 2027) + build number if available
 - A short description of what you were doing
 - Steps to reproduce (if you can)
 - Screenshot of the message/output

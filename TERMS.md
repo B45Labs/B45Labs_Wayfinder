@@ -2,7 +2,7 @@
 
 **Effective date:** 2026-11-15  
 **Last updated:** 2026-11-14  
-**Applies to:** B45 Labs | Wayfinder v0.0.1 (Autodesk Navisworks Manage 2026)
+**Applies to:** B45 Labs | Wayfinder v0.0.1 (Autodesk Navisworks Manage 2025, 2026 and 2027)
 
 This Terms of Use / End User License Agreement (“Agreement”) is a legal agreement between you (“you”, “your”) and B45 Labs (“B45 Labs”, “we”, “our”, “us”) governing your use of the B45 Labs | Wayfinder add-in for Autodesk Navisworks (the “Software”).
 
