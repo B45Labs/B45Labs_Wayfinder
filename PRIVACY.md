@@ -132,7 +132,7 @@ We do not sell your data and we do not share it with third parties for advertisi
 | Google Fonts, YouTube, jsDelivr | Fonts, videos and a map library on the Website | Your IP address |
 | Anthropic, OpenAI | Only if you use Connect's Assistant, dictation or tunnel, with your own account | What you send them (section 5) |
 
-ipwhois.app and get.geojs.io are public services; they see your IP address as any website you visit does. We may disclose information if required by law or to protect our rights and the security of the Software.
+ipwhois.app and get.geojs.io are public services that we call without an account or key; they see your IP address as any website you visit does. We may disclose information if required by law or to protect our rights and the security of the Software.
 
 ## 10. How long we keep data
 
@@ -150,7 +150,7 @@ From **My Profile**:
 - **Share usage data**: master switch for usage reporting (section 3.8).
 - **Also sync my profile**: off by default.
 - **Export my data**: a JSON file with what is stored locally about you.
-- **Erase my data**: deletes everything B45 Labs stores on your computer (profile, usage history, and machine identity) and asks our server to delete the records linked to your installation identifier. This cannot be undone. Because the profile, identifier and privacy choice are shared, this covers the other B45 Labs products on the same computer.
+- **Erase my data**: permanently deletes all B45 Labs data stored on your computer (profile, usage history and machine identity) and asks our server to delete the records linked to your installation identifier. This cannot be undone. Because the profile, identifier and privacy choice are shared, this covers the other B45 Labs products on the same computer.
 
 Newsletter sign-ups, forms you sent from the website and feedback you sent are deleted on request: write to **support@b45labs.com**. You may also ask what we hold about you, or ask us to correct it. We may ask for information to verify your request.
 
@@ -165,6 +165,23 @@ We may update this policy. The "Last updated" date shows the latest revision. Ma
 ## 15. Contact
 
 B45 Labs Support, **support@b45labs.com**.
+
+## Annex: Files that Connect stores on your computer
+
+The usage queue and the failure queue are sent as described in sections 3.1 and 3.2. Everything else below is never transmitted to B45 Labs:
+
+- **Your AI provider API keys**, one encrypted file per provider under `%LocalAppData%\B45Labs\Connect\`, protected with Windows DPAPI for your Windows user account (section 5).
+- **Your microphone preference** for voice dictation, remembered on this PC.
+- **The MCP server log**, `%AppData%\B45Labs\Connect\mcp_server.log` (rotated once to `mcp_server.1.log` at 1 MB). Each line carries a timestamp, the tool name, the outcome and the elapsed time; **never** the arguments sent or the results returned, so no model data lands in it.
+- **The add-in error log**, `%AppData%\B45Labs\Connect\connect_errorlog.jsonl`, sanitised (file paths, model names and e-mail addresses are redacted when written).
+- **The installation memory**, `%LocalAppData%\B45Labs\Connect\installation_sent.json`: what Connect last sent in its installation record (versions, dates, language, the installation identifier). It holds no content and is never sent as a file.
+- **The usage queue**, `%LocalAppData%\B45Labs\Connect\usage_queue.jsonl`: the counts waiting to be sent (one short line per event, no content). It is emptied after each successful send, capped at 256 KB, and nothing is written to it while the usage switch is off.
+- **The failure queue**, `%LocalAppData%\B45Labs\Connect\failure_queue.jsonl`: the short failure reports of section 3.2 waiting to be sent (no message text and no content). Reports older than 3 days are dropped, and nothing is written to it while the usage switch is off.
+- **Your chat history**, `%LocalAppData%\B45Labs\Connect\history\`: your conversations with the Assistant (what you saw in the chat: your messages, the answers and the tool and error lines), kept on this PC so that "New chat" does not throw the previous one away. A chat can include names and numbers from your models, and the files are not protected with a password. They are never sent to B45 Labs; delete the folder, or the chats you do not want, at any time.
+- **An entry in Claude Desktop's configuration file** (`%AppData%\Claude\claude_desktop_config.json`) only when you click “Enable in Claude Desktop”; “Disable” removes it. The Software edits no other third-party configuration file.
+- **The embedded documentation index**: an offline copy of the B45 Labs command documentation shipped inside the add-in, which the Assistant reads locally to explain a command. It makes no network request.
+
+You can delete the log files at any time; they are recreated on the next run. Uninstalling removes the add-in and the MCP server; the key files and logs listed above may remain under your user folders and can be deleted by hand.
 
 ## Annex: What Wayfinder stores on your computer
 
