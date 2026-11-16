@@ -71,9 +71,9 @@ At startup, Wayfinder quietly checks in the background whether a newer version e
 
 ## Data and privacy
 
-Wayfinder sends a small amount of **anonymous** usage and error data to B45 Labs. It is **on by default** and you can **turn it off at any time** with the "Share anonymous usage data to help improve B45 Labs" switch in My Profile > Privacy. When it is off, nothing is sent and anything still waiting to be sent is discarded. It covers:
+Wayfinder sends a small amount of usage and error data, tied to a random install ID, to B45 Labs. It is **on by default** and you can **turn it off at any time** with the "Share usage data to help improve B45 Labs" switch in My Profile > Privacy. When it is off, nothing is sent and anything still waiting to be sent is discarded. It covers:
 
-- an anonymous installation ID, shared by the B45 Labs products on your computer,
+- a random installation ID, shared by the B45 Labs products on your computer,
 - the Navisworks and Wayfinder versions and the interface language,
 - an approximate region (continent, country, region), looked up from your IP address, which is not stored,
 - one event for each Wayfinder ribbon button you click,

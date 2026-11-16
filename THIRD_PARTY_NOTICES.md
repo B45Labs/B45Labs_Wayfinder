@@ -31,7 +31,7 @@ redistributed in unmodified binary form.
 
 | Service | Used for |
 |---|---|
-| ipwhois.app | Coarse region lookup (continent, country, region), only while "Share anonymous usage data to help improve B45 Labs" is on. See [PRIVACY.md](PRIVACY.md). |
+| ipwhois.app | Coarse region lookup (continent, country, region), only while "Share usage data to help improve B45 Labs" is on. See [PRIVACY.md](PRIVACY.md). |
 
 ---
 

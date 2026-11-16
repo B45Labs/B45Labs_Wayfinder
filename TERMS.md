@@ -48,7 +48,7 @@ Some updates may be required for security, compatibility, or stability reasons. 
 Any donation/support links (if present) are optional. Transactions are handled by third-party providers and are subject to their terms.
 
 ## 5. Telemetry, Diagnostics, and Privacy
-The Software may collect usage, diagnostics, and environment information to improve performance and reliability and to support development. Collection of anonymous usage and error data is on by default and you can turn it off at any time in My Profile > Privacy. Syncing your optional user profile is off by default and happens only if you turn it on.
+The Software may collect usage, diagnostics, and environment information to improve performance and reliability and to support development. Collection of usage and error data tied to a random install ID is on by default and you can turn it off at any time in My Profile > Privacy. Syncing your optional user profile is off by default and happens only if you turn it on.
 
 Details of what is collected and how it is used are described in the **Privacy Policy** (“Privacy Policy”). By using the Software, you acknowledge that you have reviewed the Privacy Policy and agree to the collection and use described there.
 
